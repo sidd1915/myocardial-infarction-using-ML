@@ -5,7 +5,7 @@ Dataset taken from Kaggle - https://www.kaggle.com/datasets/shayanfazeli/heartbe
 
 Methodology-
 
-Data Preprocessing: Adding labels,normalizing the data.
+Data Preprocessing: Adding labels,normalizing the data,handling the imbalance.
 
 Feature Extraction: Reducing feature size using PCA.
 
