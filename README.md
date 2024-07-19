@@ -1,23 +1,26 @@
-# myocardial-infarction-using-ML
-This project focuses on the detection of myocardial infarction (heart attack) using machine learning techniques. We leverage the PTB diagnostic database, a widely used dataset in the field of cardiology.Myocardial infarction, a critical medical condition, requires prompt diagnosis and treatment. Machine learning algorithms offer the potential to aid healthcare professionals in accurately identifying myocardial infarction cases from electrocardiogram (ECG) data.
+# Myocardial-Infarction-using-ML
+This project focuses on the detection of Myocardial infarction (heart attack) using machine learning techniques. We leverage the PTB diagnostic database, a widely used dataset in the field of cardiology.Myocardial infarction, a critical medical condition, requires prompt diagnosis and treatment. Machine learning algorithms offer the potential to aid healthcare professionals in accurately identifying myocardial infarction cases from electrocardiogram (ECG) data.
 
 Dataset taken from Kaggle - https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 
-Methodology-
+## Methodology-
 
-Data Preprocessing: Adding labels,normalizing the data,handling the imbalance.
+## Data Preprocessing:
+Adding labels,normalizing the data,handling the imbalance.
 
-Feature Extraction: Reducing feature size using PCA.
+## Feature Extraction: 
+Reducing feature size using PCA.
 
-Algorithms Used: KNN , Random forest , SVM
+## Algorithms Used:
+KNN , Random forest , SVM
 
-Model Training: Training machine learning models, including but not limited to, Support Vector Machines (SVM), Random Forest, and K-Nearest Neighbours (KNN), on the extracted features.
+## Model Training: 
+Training machine learning models, including but not limited to, Support Vector Machines (SVM), Random Forest, and K-Nearest Neighbours (KNN), on the extracted features.
 
-Model Evaluation: Evaluating the performance of trained models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
+## Model Evaluation: 
+Evaluating the performance of trained models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
 
-Deployment: Deploying the best-performing model for real-time or batch prediction of myocardial infarction.
-
-Usage
+## Usage
 
 1.Clone the repository:
 git clone https://github.com/yourusername/myocardial-infarction-detection.git
@@ -29,7 +32,7 @@ pip install -r requirements.txt
 
 4.Run the notebooks sequentially to replicate our experiments or adapt the code to your specific requirements.
 
-Results
+## Results
 Our experiments demonstrate promising results in myocardial infarction detection using machine learning techniques. The models achieve high accuracy and sensitivity, indicating their potential for assisting healthcare professionals in diagnosing myocardial infarction.
 
 Future Scope - 
